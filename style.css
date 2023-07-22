@@ -1,0 +1,155 @@
+html{
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    background-color: rgb(5, 5, 118);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+    background-color: rgb(94, 94, 228);
+    align-items: center;
+    height: 50px;
+}
+
+.dips {
+    font-size: 25px;
+}
+
+.nav-list {
+    display: flex;
+    margin: 0;
+    list-style-type: none;
+    padding-left: 0px;
+    gap: 50px;
+}
+
+.first-section {
+    display: flex;
+
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.leftsection {
+    font-size: 2.5rem;
+    padding-top: 5%;
+    width: 40%
+}
+
+.rightsection {
+    width: 40%;
+    padding-top: 35px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list li a:hover {
+    font-size: 1.01rem;
+    color: rgb(17, 17, 94);
+
+}
+
+.firsthr {
+
+    border-color: rgb(158, 128, 239);
+    
+    
+    border-style: dotted none none none ;
+    border-width: 8px;
+    width: 60%;
+
+}
+
+.skills {
+    font-size: 25px;
+
+    
+    padding-left: 20px;
+    margin-top: 50px;
+
+}
+
+.third-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 55px;
+    margin-top: 40px;
+    margin-left: 148px;
+    height: 50vh;
+    margin-bottom: 50px;
+}
+
+.third-section :hover{
+
+    height: 106px;
+    width:106px;
+
+}
+
+.second-section{
+    margin-top: 45px;
+    margin-bottom: 50px;
+    margin-left: 65px;
+    
+     
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 60px;
+    font-size: 20px;
+    
+}
+
+.second-section p{
+    font-size: 10px;
+    font-style: italic;
+}
+.seconddiv{
+    display: flex;
+}
+.secondhr{
+    margin-left: 200px;
+    margin-right: 45px;
+    margin-bottom: 50px;
+}
+
+.image{
+    border-radius: 50%;
+}
+.dips{
+    display: flex;
+    gap: 7px;
+}
+
+.fourth-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin-top: 35px;
+}
+
+.fourth-section p{
+    margin-top: 0px;
+}
+
+.fs :hover{
+    height: 35px;
+    width: 35px;
+}
+
+.fourth-section a{
+    text-decoration: none;
+}
